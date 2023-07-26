@@ -3,14 +3,14 @@ import Block from "./Block";
 
 const Table = () => {
   return (
-    <section className="flex justify-center items-center h-full w-full gap-6">
+    <section className="flex justify-center items-center min-w-full min-h-max gap-6 some:flex-col some:mb-[80px]">
       <Block
         h="Supervisor"
         p="Monitors activity to identify project roodblocks"
         color="cyan"
         img="icon-supervisor.svg"
       />
-      <div className="flex flex-col  gap-6">
+      <div className="flex flex-col  gap-6 relative">
         <Block
           h="Team Builder"
           p="Scans our talent network to create the optimal toom for your project"
