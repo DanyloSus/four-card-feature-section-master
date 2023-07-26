@@ -7,3 +7,26 @@
 :root {
   font-family: "Poppins", sans-serif;
 }
+
+.anim-left {
+  animation: anim-left 1s ease-in-out both;
+}
+
+@keyframes anim-left {
+  0% {
+    position: relative;
+    opacity: 0;
+    left: -20px;
+  }
+  100% {
+    position: relative;
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+@for $i from 1 through 99 {
+  .anim-left:nth-child(#{$i}) {
+    animation-delay: #{calc($i/2)}s;
+  }
+}

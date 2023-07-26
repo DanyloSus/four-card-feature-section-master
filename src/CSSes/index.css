@@ -4,4 +4,416 @@
 @tailwind utilities;
 :root {
   font-family: "Poppins", sans-serif;
+}
+
+.anim-left {
+  animation: anim-left 1s ease-in-out both;
+}
+
+@keyframes anim-left {
+  0% {
+    position: relative;
+    opacity: 0;
+    left: -20px;
+  }
+  100% {
+    position: relative;
+    opacity: 1;
+    left: 0px;
+  }
+}
+.anim-left:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.anim-left:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.anim-left:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.anim-left:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.anim-left:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.anim-left:nth-child(6) {
+  animation-delay: 3s;
+}
+
+.anim-left:nth-child(7) {
+  animation-delay: 3.5s;
+}
+
+.anim-left:nth-child(8) {
+  animation-delay: 4s;
+}
+
+.anim-left:nth-child(9) {
+  animation-delay: 4.5s;
+}
+
+.anim-left:nth-child(10) {
+  animation-delay: 5s;
+}
+
+.anim-left:nth-child(11) {
+  animation-delay: 5.5s;
+}
+
+.anim-left:nth-child(12) {
+  animation-delay: 6s;
+}
+
+.anim-left:nth-child(13) {
+  animation-delay: 6.5s;
+}
+
+.anim-left:nth-child(14) {
+  animation-delay: 7s;
+}
+
+.anim-left:nth-child(15) {
+  animation-delay: 7.5s;
+}
+
+.anim-left:nth-child(16) {
+  animation-delay: 8s;
+}
+
+.anim-left:nth-child(17) {
+  animation-delay: 8.5s;
+}
+
+.anim-left:nth-child(18) {
+  animation-delay: 9s;
+}
+
+.anim-left:nth-child(19) {
+  animation-delay: 9.5s;
+}
+
+.anim-left:nth-child(20) {
+  animation-delay: 10s;
+}
+
+.anim-left:nth-child(21) {
+  animation-delay: 10.5s;
+}
+
+.anim-left:nth-child(22) {
+  animation-delay: 11s;
+}
+
+.anim-left:nth-child(23) {
+  animation-delay: 11.5s;
+}
+
+.anim-left:nth-child(24) {
+  animation-delay: 12s;
+}
+
+.anim-left:nth-child(25) {
+  animation-delay: 12.5s;
+}
+
+.anim-left:nth-child(26) {
+  animation-delay: 13s;
+}
+
+.anim-left:nth-child(27) {
+  animation-delay: 13.5s;
+}
+
+.anim-left:nth-child(28) {
+  animation-delay: 14s;
+}
+
+.anim-left:nth-child(29) {
+  animation-delay: 14.5s;
+}
+
+.anim-left:nth-child(30) {
+  animation-delay: 15s;
+}
+
+.anim-left:nth-child(31) {
+  animation-delay: 15.5s;
+}
+
+.anim-left:nth-child(32) {
+  animation-delay: 16s;
+}
+
+.anim-left:nth-child(33) {
+  animation-delay: 16.5s;
+}
+
+.anim-left:nth-child(34) {
+  animation-delay: 17s;
+}
+
+.anim-left:nth-child(35) {
+  animation-delay: 17.5s;
+}
+
+.anim-left:nth-child(36) {
+  animation-delay: 18s;
+}
+
+.anim-left:nth-child(37) {
+  animation-delay: 18.5s;
+}
+
+.anim-left:nth-child(38) {
+  animation-delay: 19s;
+}
+
+.anim-left:nth-child(39) {
+  animation-delay: 19.5s;
+}
+
+.anim-left:nth-child(40) {
+  animation-delay: 20s;
+}
+
+.anim-left:nth-child(41) {
+  animation-delay: 20.5s;
+}
+
+.anim-left:nth-child(42) {
+  animation-delay: 21s;
+}
+
+.anim-left:nth-child(43) {
+  animation-delay: 21.5s;
+}
+
+.anim-left:nth-child(44) {
+  animation-delay: 22s;
+}
+
+.anim-left:nth-child(45) {
+  animation-delay: 22.5s;
+}
+
+.anim-left:nth-child(46) {
+  animation-delay: 23s;
+}
+
+.anim-left:nth-child(47) {
+  animation-delay: 23.5s;
+}
+
+.anim-left:nth-child(48) {
+  animation-delay: 24s;
+}
+
+.anim-left:nth-child(49) {
+  animation-delay: 24.5s;
+}
+
+.anim-left:nth-child(50) {
+  animation-delay: 25s;
+}
+
+.anim-left:nth-child(51) {
+  animation-delay: 25.5s;
+}
+
+.anim-left:nth-child(52) {
+  animation-delay: 26s;
+}
+
+.anim-left:nth-child(53) {
+  animation-delay: 26.5s;
+}
+
+.anim-left:nth-child(54) {
+  animation-delay: 27s;
+}
+
+.anim-left:nth-child(55) {
+  animation-delay: 27.5s;
+}
+
+.anim-left:nth-child(56) {
+  animation-delay: 28s;
+}
+
+.anim-left:nth-child(57) {
+  animation-delay: 28.5s;
+}
+
+.anim-left:nth-child(58) {
+  animation-delay: 29s;
+}
+
+.anim-left:nth-child(59) {
+  animation-delay: 29.5s;
+}
+
+.anim-left:nth-child(60) {
+  animation-delay: 30s;
+}
+
+.anim-left:nth-child(61) {
+  animation-delay: 30.5s;
+}
+
+.anim-left:nth-child(62) {
+  animation-delay: 31s;
+}
+
+.anim-left:nth-child(63) {
+  animation-delay: 31.5s;
+}
+
+.anim-left:nth-child(64) {
+  animation-delay: 32s;
+}
+
+.anim-left:nth-child(65) {
+  animation-delay: 32.5s;
+}
+
+.anim-left:nth-child(66) {
+  animation-delay: 33s;
+}
+
+.anim-left:nth-child(67) {
+  animation-delay: 33.5s;
+}
+
+.anim-left:nth-child(68) {
+  animation-delay: 34s;
+}
+
+.anim-left:nth-child(69) {
+  animation-delay: 34.5s;
+}
+
+.anim-left:nth-child(70) {
+  animation-delay: 35s;
+}
+
+.anim-left:nth-child(71) {
+  animation-delay: 35.5s;
+}
+
+.anim-left:nth-child(72) {
+  animation-delay: 36s;
+}
+
+.anim-left:nth-child(73) {
+  animation-delay: 36.5s;
+}
+
+.anim-left:nth-child(74) {
+  animation-delay: 37s;
+}
+
+.anim-left:nth-child(75) {
+  animation-delay: 37.5s;
+}
+
+.anim-left:nth-child(76) {
+  animation-delay: 38s;
+}
+
+.anim-left:nth-child(77) {
+  animation-delay: 38.5s;
+}
+
+.anim-left:nth-child(78) {
+  animation-delay: 39s;
+}
+
+.anim-left:nth-child(79) {
+  animation-delay: 39.5s;
+}
+
+.anim-left:nth-child(80) {
+  animation-delay: 40s;
+}
+
+.anim-left:nth-child(81) {
+  animation-delay: 40.5s;
+}
+
+.anim-left:nth-child(82) {
+  animation-delay: 41s;
+}
+
+.anim-left:nth-child(83) {
+  animation-delay: 41.5s;
+}
+
+.anim-left:nth-child(84) {
+  animation-delay: 42s;
+}
+
+.anim-left:nth-child(85) {
+  animation-delay: 42.5s;
+}
+
+.anim-left:nth-child(86) {
+  animation-delay: 43s;
+}
+
+.anim-left:nth-child(87) {
+  animation-delay: 43.5s;
+}
+
+.anim-left:nth-child(88) {
+  animation-delay: 44s;
+}
+
+.anim-left:nth-child(89) {
+  animation-delay: 44.5s;
+}
+
+.anim-left:nth-child(90) {
+  animation-delay: 45s;
+}
+
+.anim-left:nth-child(91) {
+  animation-delay: 45.5s;
+}
+
+.anim-left:nth-child(92) {
+  animation-delay: 46s;
+}
+
+.anim-left:nth-child(93) {
+  animation-delay: 46.5s;
+}
+
+.anim-left:nth-child(94) {
+  animation-delay: 47s;
+}
+
+.anim-left:nth-child(95) {
+  animation-delay: 47.5s;
+}
+
+.anim-left:nth-child(96) {
+  animation-delay: 48s;
+}
+
+.anim-left:nth-child(97) {
+  animation-delay: 48.5s;
+}
+
+.anim-left:nth-child(98) {
+  animation-delay: 49s;
+}
+
+.anim-left:nth-child(99) {
+  animation-delay: 49.5s;
 }/*# sourceMappingURL=index.css.map */

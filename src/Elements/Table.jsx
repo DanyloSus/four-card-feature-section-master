@@ -3,7 +3,7 @@ import Block from "./Block";
 
 const Table = () => {
   return (
-    <section className="flex justify-center items-center min-w-full min-h-max gap-6 some:flex-col some:mb-[80px]">
+    <section className="flex justify-center items-center min-w-full min-h-max gap-6 some:flex-col some:mb-[80px] ">
       <Block
         h="Supervisor"
         p="Monitors activity to identify project roodblocks"

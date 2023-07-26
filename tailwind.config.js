@@ -15,6 +15,23 @@ export default {
     screens: {
       some: { max: "1150px" },
     },
+    keyframes: {
+      wigle: {
+        0: {
+          position: "relative",
+          opacity: 0,
+          left: "-20px",
+        },
+        100: {
+          position: "relative",
+          opacity: 1,
+          left: "0px",
+        },
+      },
+    },
+    animation: {
+      left: "wigle 1s ease-in-out both",
+    },
   },
   plugins: [],
 };
